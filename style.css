@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: blueviolet;
+}
+aside{
+    width: 20%;
+    height: 80%;
+    background-color: green;
+}
+main{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: purple;
+    margin: 0;
+}
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    flex-grow:0;
+    flex-shrink:0;
+}
